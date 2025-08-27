@@ -67,13 +67,6 @@ Para executar a simulação, você precisará de um simulador Verilog como o Ica
 3.  **Verifique a saída:**
     O testbench irá imprimir o estado inicial e final dos 32 registradores no terminal. Além disso, os estados serão salvos em arquivos de texto na pasta `output/`. Você pode comparar a saída com os resultados esperados do programa `test_program.asm` para verificar a correção do processador.
 
-4.  **Execução simplificada:**
-    Use o script `run_simulation.bat` para compilar e executar a simulação automaticamente:
-
-    ```sh
-    run_simulation.bat
-    ```
-
 ## Referências
 
 - Patterson, D. A., & Hennessy, J. L. (2017). *Computer Organization and Design RISC-V Edition: The Hardware Software Interface*. Morgan Kaufmann.
